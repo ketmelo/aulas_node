@@ -1,4 +1,4 @@
-const fs = require('fs') // file system
+const fs = require('fs') // FS = file system
 
 fs.readFile('frase.txt', 'utf8', (erro, dados) => {
     if (erro) {
